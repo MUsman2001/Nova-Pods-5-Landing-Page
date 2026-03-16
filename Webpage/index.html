@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nova Pods 5 — Product Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+        <div class="container">
+            <h1 class="logo">Nova Pods 5</h1>
+        </div>
+
+            <div class="description">
+                <h3>Experience Sound Like Never Before</h3>
+                <p>Premium wireless earbuds designed for deep bass, seamless connectivity, and all-day comfort.</p>
+            </div>
+            <div class="image">
+                <img src="Product Pic.jpg" alt="Nova Pods 5 Wireless Earbuds">
+            </div>
+
+    <!--Features Section-->
+    <section class="features">
+        <h2>Features</h2>
+            <p>Deep Bass</p>
+                <p>Feel the beat with 40mm drivers</p>
+            <p>Wireless</p>
+                <p>30-Hour Battery allows to listen all week on one charge</p>
+            <p>Comfortable</p>
+                <p>Cloud-Soft Fit makes memory foam molds to your ears</p>
+    </section>
+        <div class="pricing">
+            <h3>Special Offer</h3>
+            <p class="price">Rs. 2000</p>
+            <button class="btn-primary">Buy Now</button>
+        </div>
+    
+    <!--Popup Form Modal-->
+    <div id="purchaseModal" class="modal-overlay">
+        <div class="modal-content">
+            <span class="close-btn" id="closeModal">&times;</span>
+            <h2>Complete Your Order</h2>
+            <form id="purchaseForm">
+                <input type="text" id="name" placeholder="Full Name" required>
+                <input type="tel" id="contact" placeholder="Contact Number" required>
+                <textarea id="address" placeholder="Delivery Address" rows="3" required></textarea>
+                <button type="submit" class="btn-primary">Click and Buy Now</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
